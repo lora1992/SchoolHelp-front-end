@@ -1,0 +1,53 @@
+
+page {
+	background-color: #efeff4;
+}
+view {
+	font-size: 28rpx;
+}
+text.post-right {
+	color: #b2b2b2;
+	position: relative;
+	left: 650rpx;
+}
+/*    问题反馈 */
+.feedback-title {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	    -ms-flex-direction: row;
+	        flex-direction: row;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	    -ms-flex-align: center;
+	        align-items: center;
+	padding: 20rpx;
+	color: #8f8f94;
+	font-size: 28rpx;
+}
+.feedback-body {
+	background: #fff;
+}
+.feedback-textarea {
+	height: 500rpx;
+	font-size: 34rpx;
+	line-height: 50rpx;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	padding: 20rpx 30rpx 0;
+}
+.feedback-submit {
+	background: #007aff;
+	color: #ffffff;
+	margin: 20rpx;
+}
+

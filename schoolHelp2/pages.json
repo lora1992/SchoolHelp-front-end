@@ -1,0 +1,40 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/myComment/myComment",
+			"style": {
+				"navigationBarTitleText": "我的提问"
+			}
+
+		}, {
+			"path": "pages/myAnswer/myAnswer",
+			"style": {
+				"navigationBarTitleText": "我的回答"
+			}
+		}, {
+			"path": "pages/feedback/feedback",
+
+			"style": {
+				"navigationBarTitleText": "意见反馈"
+			}
+		}, 
+			{
+			"path": "pages/searchResult/searchResult",
+			"style": {
+				"navigationBarTitleText": "搜索结果"
+			}
+		}
+        ,{
+            "path" : "pages/contents/contents",
+            "style" : {
+				"navigationBarTitleText": "跳转内容"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "校园帮",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
