@@ -30,6 +30,10 @@
 				"navigationBarTitleText": "跳转内容"
 			}
         }
+        ,{
+            "path" : "pages/searchResult/searchResult",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
